@@ -1,0 +1,5 @@
+2018/04/06 13:28:23 [error] 25#0: *53 directory index of "/app/public/" is forbidden, client: 127.0.0.1, server: site_domain, request: "GET / HTTP/1.0", host: "les-vollailes-de-licques.local"
+2018/04/06 14:00:37 [error] 25#0: *110 directory index of "/app/public/" is forbidden, client: 127.0.0.1, server: site_domain, request: "GET / HTTP/1.0", host: "les-vollailes-de-licques.local"
+2018/04/06 16:40:28 [error] 18#0: *1 directory index of "/app/public/" is forbidden, client: 127.0.0.1, server: site_domain, request: "GET / HTTP/1.0", host: "les-vollailes-de-licques.local"
+2018/04/20 11:46:03 [error] 17#0: *1 directory index of "/app/public/" is forbidden, client: 127.0.0.1, server: site_domain, request: "GET / HTTP/1.0", host: "les-vollailes-de-licques.local"
+2018/04/20 19:48:42 [error] 18#0: *1 directory index of "/app/public/" is forbidden, client: 127.0.0.1, server: site_domain, request: "GET / HTTP/1.0", host: "les-vollailes-de-licques.local"

@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Les volailles de Licques</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+<div class="container">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <nav class="navbar navbar-light bg-light">
+                <a class="navbar-brand" href="#">
+                    <img src="images/logo.png"  alt="">
+                </a>
+            </nav>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="Acceuil.html">Accueil <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Presentation.html">Présentation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cuisine.php">Nos cuisinés</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="reservation.php">Réservation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="contact.php">Nous Contacter</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+
+    </header>
+    <span id="sl_play" class="sl_command"></span>
+    <span id="sl_pause" class="sl_command"></span>
+
+    <span id="sl_i1" class="sl_command sl_i"></span>
+    <span id="sl_i2" class="sl_command sl_i"></span>
+    <span id="sl_i3" class="sl_command sl_i"></span>
+    <span id="sl_i4" class="sl_command sl_i"></span>
+    <section id="slideshow">
+
+        <div class="container">
+            <div class="c_slider"></div>
+            <div class="slider">
+                <figure>
+                    <img src="images/diapo1.png" alt="" width="940" height="460" />
+                    <figcaption>Bienvenue au pays des volailles de Licques !</figcaption>
+
+                </figure><!--
+			--><figure>
+                <img src="images/diapo2.png" alt="" width="940" height="460" />
+                <figcaption>Nous commercialisons les produits du Groupement des éleveurs de Licques et de sa région.</figcaption>
+            </figure><!--
+			--><figure>
+                <img src="images/diapo3.png" alt="" width="940" height="460" />
+                <figcaption>tel que les volailles Label Rouge :</figcaption>
+
+            </figure><!--
+			--><figure>
+                <img src="images/diapo4.png" alt="" width="940" height="460" />
+                <figcaption>Poulets fermiers, pintades fermières, poulets jaunes fermiers, dindes fermières, poulardes fermières, chapons fermiers, et chapons de pintade.</figcaption>
+            </figure>
+            </div>
+        </div>
+
+        <span id="timeline"></span>
+        <a class="play_commands pause" href="#sl_pause" title="Maintain paused">Pause</a>
+        <a class="play_commands play" href="#sl_play" title="Play the animation">Play</a>
+        <a class="commands prev commands1" href="#sl_i4" title="Aller à la dernière slide">&lt;</a>
+        <a class="commands next commands1" href="#sl_i2" title="Aller à la 2ème slide">&gt;</a>
+        <a class="commands prev commands2" href="#sl_i1" title="Aller à la 1ère slide">&lt;</a>
+        <a class="commands next commands2" href="#sl_i3" title="Aller à la 3ème slide">&gt;</a>
+        <a class="commands prev commands3" href="#sl_i2" title="Aller à la 2ème slide">&lt;</a>
+        <a class="commands next commands3" href="#sl_i4" title="Aller à la 4ème slide">&gt;</a>
+        <a class="commands prev commands4" href="#sl_i3" title="Aller à la 3ème slide">&lt;</a>
+        <a class="commands next commands4" href="#sl_i1" title="Aller à la 1ère slide">&gt;</a>
+        <ul class="dots_commands"><!--
+	--><li><a title="Afficher la slide 1" href="#sl_i1">Slide 1</a></li><!--
+	--><li><a title="Afficher la slide 2" href="#sl_i2">Slide 2</a></li><!--
+	--><li><a title="Afficher la slide 3" href="#sl_i3">Slide 3</a></li><!--
+	--><li><a title="Afficher la slide 4" href="#sl_i4">Slide 4</a></li>
+        </ul>
+
+    </section>
+
+
+    <footer>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. A distinctio ex iste quo? Dignissimos ea expedita fugit minima nulla tenetur vel. Aliquam asperiores fugit iste iure nam necessitatibus tempore voluptatem?
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</div>
+</body>
+</html>
